@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+/*   9. Dark and Orange
+Dark Grey: #393939 – Dark designs take a little bit more fore-thought but can provide tons of contrast if used well. 
+
+Deep Orange: #FF5A09 – With different shades of oranges, there is depth and gradient, without venturing into totally new colors. 
+
+Light Orange: #ec7f37 – Utilizing illustrative elements, requires a bit of flexibility for the natural lightness and darkness to contour objects. 
+
+Orange Yellow: #be4f0c – Using on color over on the color wheel can keep the palette looking classy, bold and restrained.*/
+
+$Dark_Grey: #393939;
+$Deep_Orange: #ff5a09;
+$Light_Orange: #ec7f37;
+$Orange_Yellow: #be4f0c;
+
+body {
+  color: $Dark_Grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: lighten(darkgray, 45%);
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  color: $Light_Orange;
+  font-weight: bold;
+}
+.title {
+  text-align: center;
+  padding: 0.4em;
+  background: $Dark_Grey;
+  color: $Deep_Orange;
+}
+.row {
+  padding: 1em;
+}
